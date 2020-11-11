@@ -12,3 +12,72 @@ nav{
 h1.first{
     font-family: 'Montserrat', sans-serif;
 }
+
+ol{
+    list-style: none;
+    display: grid;
+}
+.web{
+    justify-self: left;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.desc1{
+    justify-self: right;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.fall1{
+    justify-self: left;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.script{
+    justify-self: left;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.desc2{
+    justify-self: right;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.fall2{
+    justify-self: left;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.math{
+    justify-self: left;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.desc3{
+    justify-self: right;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.fall3{
+    justify-self: left;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+
+@media screen and (max-width: 600px){
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    ol{
+        display: inline;
+    }
+}
